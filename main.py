@@ -2,11 +2,10 @@ import random
 
 
 def bubble(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    n = len(numbers)
+    # Loop through the list from the first element to the second to last element
+    for i in range(n+1):
+
 
 
 def main():
