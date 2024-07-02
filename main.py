@@ -4,8 +4,11 @@ import random
 def bubble(numbers):
     n = len(numbers)
     # Loop through the list from the first element to the second to last element
-    for i in range(n+1):
-
+    for i in range(n-1):
+        # Compare current element with the next element
+        if numbers[i] > numbers[i+1]:
+            # Swap if current element is greater than the next element
+            numbers[i], numbers[i+1] = numbers[i+1], numbers[i]
 
 
 def main():
